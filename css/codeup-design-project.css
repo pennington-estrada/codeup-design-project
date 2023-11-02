@@ -86,6 +86,7 @@ header{
 
 .imgcard img {
     width: 100%;
+    aspect-ratio: 640/426;
     position: relative;
     object-fit: cover;
     padding: 10px;
