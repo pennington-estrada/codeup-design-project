@@ -21,6 +21,11 @@
     background-color: var(--light-gray);
     font-family: 'Anton', sans-serif;
 }
+
+.container{
+    padding: unset;
+}
+
 h3{
     margin: unset;
     font-family: 'Abel', sans-serif;
@@ -42,6 +47,14 @@ nav h2{
 header{
     max-height: 60px;
 }
+
+.section-title{
+    margin: 40px 0;
+    text-align: center;
+    color: var(--black);
+}
+
+
 
 .logo{
     width: 50px;
@@ -130,4 +143,32 @@ header{
     color: var(--black);
     font-family: 'Anton', sans-serif;
     font-size: 11px;
+}
+
+.img-wrapper img{
+    aspect-ratio: 1/1;
+    width: 100%;
+}
+.img-wrapper{
+    aspect-ratio: 1/1;
+    width: 28%;
+
+}
+
+article p{
+    font-size: 30px;
+    width: 66%;
+    line-height:1.2 ;
+    padding: 0 20px
+}
+
+article{
+    margin: unset;
+    padding: unset;
+}
+
+
+
+.tweet p{
+    font-family: sans-serif ;
 }
