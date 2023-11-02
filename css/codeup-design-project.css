@@ -77,12 +77,14 @@
 
 
 
+
+
 h3{
     margin: unset;
     font-family: 'Abel', sans-serif;
     font-weight: 400;
     font-size: 16px;
-    color: var(--dark-gray);
+    color: var(--black);
 
 }
 h2{
@@ -93,6 +95,10 @@ h2{
 nav h2{
     padding: 0 50px 0px 10px;
     font-family: 'Abel', sans-serif;
+
+}
+nav h3{
+    color: var(--dark-gray);
 }
 
 header{
@@ -101,6 +107,7 @@ header{
 }
 header h2 h3{
     visibility: visible;
+    color: var(--dark-gray);
 }
 
 .section-title{
@@ -207,11 +214,20 @@ header h2 h3{
 
 .img-wrapper img{
     aspect-ratio: 1/1;
-    width: 100%;
+    width: 75px;
+    height: 75px;
+
+
 }
 .img-wrapper{
     aspect-ratio: 1/1;
-    width: 28%;
+    width: 80px;
+    height: 80px;
+    background-color: var(--md-gray);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 5px;
 
 }
 
@@ -224,7 +240,8 @@ article p{
 
 article{
     margin: unset;
-    padding: unset;
+    padding: 20px 0;
+
 }
 
 
