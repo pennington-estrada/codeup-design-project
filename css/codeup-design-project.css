@@ -78,3 +78,14 @@ header{
     padding: 10px;
     background-color: var(--md-gray);
 }
+
+.red-circle{
+    background-color: var(--red);
+    border-radius: 999px;
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    color: black;
+    font-family: 'Anton', sans-serif;
+
+}
