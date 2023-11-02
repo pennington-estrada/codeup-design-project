@@ -26,6 +26,47 @@
     padding: unset;
 }
 
+.circle-red{
+    border-radius: 999px;
+    background-color: var(--red);
+    border: 6px solid white;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+}
+.circle-orange{
+    border-radius: 999px;
+    background-color: var(--orange);
+    border: 6px solid white;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+}
+.circle-green{
+    border-radius: 999px;
+    background-color: var(--green);
+    border: 6px solid white;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+}
+.circle-teal{
+    border-radius: 999px;
+    background-color: var(--teal);
+    border: 6px solid white;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+}
+
+
+
+.circle-buttons h3{
+    padding: unset;
+    color: white;
+    font-family: 'Anton', sans-serif;
+}
+
 h3{
     margin: unset;
     font-family: 'Abel', sans-serif;
