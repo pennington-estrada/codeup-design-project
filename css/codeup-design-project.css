@@ -79,13 +79,55 @@ header{
     background-color: var(--md-gray);
 }
 
+.circle-wrapper {
+    width: 18px;
+    height: 18px;
+}
+
 .red-circle{
     background-color: var(--red);
     border-radius: 999px;
     width: 18px;
     height: 18px;
+    line-height: 18px;
     text-align: center;
-    color: black;
+    color: var(--black);
     font-family: 'Anton', sans-serif;
+    font-size: 11px;
+}
 
+.yellow-circle {
+    background-color: var(--orange);
+    border-radius: 999px;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    color: var(--black);
+    font-family: 'Anton', sans-serif;
+    font-size: 11px;
+}
+
+.green-circle {
+    background-color: var(--green);
+    border-radius: 999px;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    color: var(--black);
+    font-family: 'Anton', sans-serif;
+    font-size: 11px;
+}
+
+.teal-circle {
+    background-color: var(--teal);
+    border-radius: 999px;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    color: var(--black);
+    font-family: 'Anton', sans-serif;
+    font-size: 11px;
 }
