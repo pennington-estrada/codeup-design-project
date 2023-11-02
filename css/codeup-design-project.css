@@ -139,6 +139,10 @@ header h2 h3{
     border-bottom: 1px solid var(--dark-gray);
 }
 
+.inner-project {
+    width: calc(98% - 15px);
+}
+
 .imgcard img {
     width: 100%;
     aspect-ratio: 640/426;
@@ -247,9 +251,24 @@ article{
     .hamburger{
         visibility: visible;
     }
+}
 
+@media screen and (min-width: 992px) {
+    .project-card {
+        margin-bottom: 70px;
+    }
 
+    .title-1 {
+        margin-bottom: 90px;
+    }
+}
 
+@media screen and (min-width: 1140px) {
+    .project-card {
+        margin-bottom: 20px;
+    }
 
-
+    .title-1 {
+        margin-bottom: 40px;
+    }
 }
