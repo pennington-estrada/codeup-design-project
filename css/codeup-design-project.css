@@ -251,6 +251,10 @@ article{
 }
 
 @media screen and (max-width: 767px) {
+    .hero-cont {
+        border-bottom: none;
+    }
+
     .circle-buttons {
         height: 220px;
         padding: 0 18%;
