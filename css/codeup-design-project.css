@@ -2,12 +2,22 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap');
 
+:root {
+    --red: #E6563B;
+    --orange: #EB9D3A;
+    --green: #7CB06C;
+    --teal: #00ABA9;
+    --light-gray: #F0F0F0;
+    --md-gray: #E6E6E6;
+    --dark-gray: #999;
+}
+
 
 .page-wrapper{
     display: flex;
     flex-direction: column;
     min-height: 100dvh;
-    background-color: #f0f0f0;
+    background-color: var(--light-gray);
     font-family: 'Anton', sans-serif;
 }
 h3{
@@ -15,7 +25,7 @@ h3{
     font-family: 'Abel', sans-serif;
     font-weight: 400;
     font-size: 16px;
-    color: #999999;
+    color: var(--dark-gray);
 
 }
 h2{
@@ -57,5 +67,13 @@ header{
 }
 
 .hero-cont {
-    border-bottom: 1px solid #999;
+    border-bottom: 1px solid var(--dark-gray);
+}
+
+.imgcard img {
+    width: 100%;
+    position: relative;
+    object-fit: cover;
+    padding: 10px;
+    background-color: var(--md-gray);
 }
