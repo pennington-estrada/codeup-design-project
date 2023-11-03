@@ -13,13 +13,16 @@
     --black: #000;
 }
 
-
 .page-wrapper{
     display: flex;
     flex-direction: column;
     min-height: 100dvh;
     background-color: var(--light-gray);
     font-family: 'Anton', sans-serif;
+}
+
+a {
+    text-decoration: none;
 }
 
 .container{
@@ -36,14 +39,17 @@
     transition: all ease 0.3s;
 
 }
+
 .circle-red:hover {
     opacity: 1;
     transform: scale(1.1);
     border: 0px;
 }
+
 .circle-red:hover h3 {
     transform: scale(1.3) ;
 }
+
 .circle-orange{
     border-radius: 999px;
     background-color: var(--orange);
@@ -52,16 +58,18 @@
     width: 100px;
     text-align: center;
     transition: all ease 0.3s;
-
 }
+
 .circle-orange:hover {
     opacity: 1;
     transform: scale(1.1);
     border: 0px;
 }
+
 .circle-orange:hover h3 {
     transform: scale(1.3) ;
 }
+
 .circle-green{
     border-radius: 999px;
     background-color: var(--green);
@@ -71,15 +79,18 @@
     text-align: center;
     transition: all ease 0.3s;
 }
+
 .circle-green:hover {
     opacity: 1;
     transform: scale(1.1);
     border: 0px;
 }
+
 .circle-green:hover h3 {
     transform: scale(1.3) ;
 }
-.circle-teal{
+
+.circle-teal {
     border-radius: 999px;
     background-color: var(--teal);
     border: 6px solid white;
@@ -88,35 +99,33 @@
     text-align: center;
     transition: all ease 0.3s;
 }
+
 .circle-teal:hover {
     opacity: 1;
     transform: scale(1.1);
     border: 0px;
 }
+
 .circle-teal:hover h3 {
-    transform: scale(1.3) ;
+    transform: scale(1.3);
+    filter: none;
 }
-
-
 
 .circle-buttons {
     padding: 0 10%;
     margin: 50px;
 }
+
 .inner-circle {
     flex-wrap: wrap;
     gap: 3rem;
 }
 
-.circle-buttons h3{
+.circle-buttons h3 {
     padding: unset;
     color: white;
     font-family: 'Anton', sans-serif;
 }
-
-
-
-
 
 h3{
     margin: unset;
@@ -124,32 +133,25 @@ h3{
     font-weight: 400;
     font-size: 16px;
     color: var(--black);
-
-
-
 }
+
 .inner-circle h3{
     transition: all ease 0.3s;
-
 }
 
-h2{
+h2 {
     margin: unset;
     font-weight: 400;
 }
 
-nav h2{
+nav h2 {
     padding: 0 50px 0px 10px;
     font-family: 'Abel', sans-serif;
-
-
 }
 
 nav h3:hover{
    transform: scale(1.2) ;
     color: var(--black)
-
-
 }
 nav h3{
     color: var(--dark-gray);
@@ -171,8 +173,6 @@ header h2 h3{
     color: var(--black);
 }
 
-
-
 .logo{
     width: 50px;
     height: 50px;
@@ -190,12 +190,12 @@ header h2 h3{
     width: 50px;
 }
 
-
 .hero {
     text-transform: uppercase;
     padding: 20px 0px;
     font-size: 54px;
 }
+
 .hero-sub {
     text-transform: uppercase;
     padding-top: 10px;
@@ -211,6 +211,10 @@ header h2 h3{
     width: calc(98% - 15px);
 }
 
+.imgcard {
+    overflow: hidden;
+}
+
 .imgcard img {
     width: 100%;
     aspect-ratio: 640/426;
@@ -218,6 +222,12 @@ header h2 h3{
     object-fit: cover;
     padding: 10px;
     background-color: var(--md-gray);
+    object-fit: cover;
+    transition: all ease .3s;
+}
+
+.imgcard img:hover {
+    transform: scale(1.5);
 }
 
 .circle-wrapper {
@@ -280,7 +290,8 @@ header h2 h3{
 
 
 }
-.img-wrapper{
+
+.img-wrapper {
     aspect-ratio: 1/1;
     width: 80px;
     height: 80px;
@@ -292,17 +303,23 @@ header h2 h3{
 
 }
 
-article p{
+article a {
     font-size: 30px;
     width: 66%;
     line-height:1.2 ;
     padding: 0 20px
+    text-decoration: none;
+    color: var(--black);
+    transition: all ease .3s;
 }
 
-article{
+article a:hover {
+    color: var(--dark-gray);
+}
+
+article {
     margin: unset;
     padding: 20px 0;
-
 }
 
 
@@ -354,7 +371,6 @@ article{
         font-family: 'Abel', sans-serif;
         color: inherit;
         text-decoration: none;
-
     }
 
     .card-body a {
@@ -362,6 +378,12 @@ article{
         text-decoration: none;
         padding: 20px 175px;
         font-size: 24px;
+        transition: all ease .3s;
+    }
+
+    .card-body a:hover {
+        color: var(--black);
+        transform: scale(1.2);
     }
 
     .card-body h2 {
