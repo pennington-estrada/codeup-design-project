@@ -1,3 +1,6 @@
+
+
+
 @import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css") layer(framework) ;
 
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap');
@@ -12,7 +15,10 @@
     --dark-gray: #999;
     --black: #000;
 }
-
+.btn-primary {
+    background-color: unset;
+    border: none;
+}
 .page-wrapper{
     display: flex;
     flex-direction: column;
@@ -324,6 +330,7 @@ article {
 
 
 
+
 .tweet p{
     font-family: sans-serif ;
 }
@@ -359,10 +366,7 @@ article {
         right: 30px;
     }
 
-    .btn-primary {
-        background-color: unset;
-        border: none;
-    }
+
 
     .card-body {
         position: absolute;
