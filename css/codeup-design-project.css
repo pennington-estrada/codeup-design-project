@@ -307,7 +307,7 @@ article a {
     font-size: 30px;
     width: 66%;
     line-height:1.2 ;
-    padding: 0 20px
+    padding: 0 20px;
     text-decoration: none;
     color: var(--black);
     transition: all ease .3s;
