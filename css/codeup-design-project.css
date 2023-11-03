@@ -124,10 +124,15 @@ h3{
     font-weight: 400;
     font-size: 16px;
     color: var(--black);
-    transition: all ease 0.3s;
+
 
 
 }
+.inner-circle h3{
+    transition: all ease 0.3s;
+
+}
+
 h2{
     margin: unset;
     font-weight: 400;
