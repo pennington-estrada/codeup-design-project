@@ -21,6 +21,11 @@
     font-family: 'Anton', sans-serif;
 }
 
+.btn-primary {
+    background-color: unset;
+    border: none;
+}
+
 a {
     text-decoration: none;
 }
@@ -357,11 +362,6 @@ article {
         z-index: 1;
         top: 10px;
         right: 30px;
-    }
-
-    .btn-primary {
-        background-color: unset;
-        border: none;
     }
 
     .card-body {
